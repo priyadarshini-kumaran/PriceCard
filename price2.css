@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.btn-lg {
+	padding: 12px 36px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.mm {
+	width: 80px;
+	height: 4px;
+	margin: 0 auto;
+}
+ul.list-group-flush li {
+	border: 0;
+}
+.card {
+	border-radius: 20px;
+}
