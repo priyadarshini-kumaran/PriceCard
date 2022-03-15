@@ -5,42 +5,92 @@
 <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
 <link rel="stylesheet" href="price2.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
 <style>
-body {
+{
   margin: 0;
   font-family:arial;
 }
 
 .topnav {
   overflow: hidden;
-  background-color:black;
+  background-color:pink;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 28px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
   background-color:pink;
-  color: black;
+  color:  #f1f1f1;
 }
 
 .topnav a.active {
-  background-color: #0000FF;
+  background-color:black;
   color: white;
 }
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: pink;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+</body>
+
+
 </style>
 </body>
 <div class="topnav">
   <a class="active" href="#menu">Menu</a>
-  <a href="active" href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="active" href="#Menu">menu</a>
+  <a href="active" href="#Menu">Menu</a>
+  <a href="#about">Contact</a>
   <a href="#tasks">Tasks</a>
   
 </div>
